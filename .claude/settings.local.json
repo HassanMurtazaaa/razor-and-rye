@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=100\" --max-time 10)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx --yes playwright@1.48.0 --version)"
+    ]
+  }
+}
